@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input {
+        @apply input input-bordered block w-full;
+    }
+    textarea {
+        @apply textarea textarea-bordered block w-full;
+    }
+    button {
+        @apply btn;
+    }
+}
